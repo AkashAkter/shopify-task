@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/356070d93f.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- NAVBAR STARTS HERE -->
+    <nav class="navbar">
+      <div class="navbar__logo">
+        <img src="./assests/Logo.png" alt="Logo" class="navbar__logo-img" />
+      </div>
+      <ul id="menuList" class="navbar__menu">
+        <li><a href="" class="navbar__link">Home</a></li>
+        <li><a href="" class="navbar__link">Services</a></li>
+        <li><a href="" class="navbar__link">Portfolio</a></li>
+        <li><a href="" class="navbar__link">Reviews</a></li>
+        <li><a href="" class="navbar__link">Pricing</a></li>
+        <li><a href="" class="navbar__link">White Label</a></li>
+      </ul>
+      <div class="navbar__cta">
+        <a href="" class="navbar__cta-button">Login</a>
+        <a href="" class="navbar__cta-button">Book a Demo</a>
+      </div>
+      <div class="navbar__menu-icon">
+        <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+      </div>
+    </nav>
+
+    <script>
+      let menuList = document.getElementById("menuList");
+      menuList.style.maxHeight = "0px";
+
+      function toggleMenu() {
+        if (menuList.style.maxHeight == "0px") {
+          menuList.style.maxHeight = "300px";
+        } else {
+          menuList.style.maxHeight = "0px";
+        }
+      }
+    </script>
+
+    <!-- NAVBAR ENDS HERE -->
+  </body>
+</html>
