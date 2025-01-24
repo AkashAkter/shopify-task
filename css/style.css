@@ -846,8 +846,6 @@ body {
 /* NEW SECTION STYLES END */
 /* FOOTER STYLES */
 .footer {
-  background-color: #1d2939;
-  color: white;
   padding: 40px 20px;
   text-align: left;
 }
@@ -867,13 +865,18 @@ body {
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 15px;
-  color: #ff7a59;
+}
+
+.footer__aboutUs {
+  margin: 10px 0;
+  font-weight: bold;
 }
 
 .footer__about {
   font-size: 14px;
   line-height: 1.6;
   margin-bottom: 15px;
+  color: #344054;
 }
 
 .footer__buttons {
@@ -882,33 +885,40 @@ body {
 }
 
 .footer__button {
-  padding: 10px 20px;
+  padding: 10px 25px;
   font-size: 14px;
-  color: white;
-  background-color: #ff7a59;
-  border: none;
-  border-radius: 5px;
+  border: 1px solid #d0d5dd;
+  border-radius: 25px;
   cursor: pointer;
   transition: background-color 0.3s;
 }
 
 .footer__button:hover {
-  background-color: #ff5733;
+  background-color: #b564f7;
+  color: white;
 }
 
 .footer__button--secondary {
-  background-color: transparent;
-  border: 1px solid #ff7a59;
+  background-color: #b564f7;
+  color: white;
+  padding: 10px 25px;
+  font-size: 14px;
+  border: 1px solid #d0d5dd;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
 
 .footer__button--secondary:hover {
-  background-color: #ff7a59;
-  color: white;
+  background-color: white;
+  border: 1px solid #d0d5dd;
+  border-radius: 25px;
+  color: black;
 }
 
 .footer__title {
   font-size: 18px;
-  font-weight: bold;
+  font-weight: semibold;
   margin-bottom: 15px;
 }
 
@@ -923,13 +933,13 @@ body {
 }
 
 .footer__list li a {
-  color: white;
   text-decoration: none;
   transition: color 0.3s;
+  color: #344054;
 }
 
 .footer__list li a:hover {
-  color: #ff7a59;
+  color: #b564f7;
 }
 
 .footer__form {
@@ -946,13 +956,15 @@ body {
   width: 100%;
   padding: 10px;
   border: 1px solid #ccc;
-  border-radius: 5px;
+  border-radius: 8px;
   resize: none;
 }
 
 .footer__button--submit {
   margin-top: 10px;
   width: 100%;
+  background-color: #1d1d1d;
+  color: white;
 }
 
 /* RESPONSIVE STYLES */
