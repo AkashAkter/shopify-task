@@ -26,7 +26,7 @@
       </ul>
       <div class="navbar__cta">
         <a href="" class="navbar__cta-button">Login</a>
-        <a href="" class="navbar__cta-button">Book a Demo</a>
+        <a href="" class="navbar__cta-button2">Book a Demo</a>
       </div>
       <div class="navbar__menu-icon">
         <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
@@ -45,23 +45,28 @@
         }
       }
     </script>
-
     <!-- NAVBAR ENDS HERE -->
 
     <!-- BANNER SECTION STARTS HERE -->
     <section class="banner">
       <div class="banner__left">
-        <p class="banner__text--top">All talents across the world</p>
+        <p class="banner__text--top">
+          <i class="fa-solid fa-star"></i>
+          All talents across the world
+        </p>
         <h3 class="banner__heading">
-          Create Short-From Video Content starting at $99/month.
+          Create
+          <span class="linear__text">Short-From Video Content</span> starting at
+          <span class="red__text">$99</span>/month.
         </h3>
+
         <p class="banner__text--bottom">
           Tailored social media content of the highest quality, crafted for your
           business. Shared on your channels only upon your approval.
         </p>
         <div class="banner__buttons">
-          <a href="#" class="banner__btn">Get started</a>
-          <a href="#" class="banner__btn">Book a demo</a>
+          <a href="#" class="banner__btn get-started">Get started</a>
+          <a href="#" class="banner__btn book-demo">Book a demo</a>
         </div>
       </div>
 
@@ -102,20 +107,30 @@
 
     <!-- ALL-INCLUSIVE CREATIVE SERVICES SECTION STARTS HERE -->
     <section class="creative-services">
-      <h2 class="creative-services__header">All-Inclusive Creative Services</h2>
-      <p>
-        Our fixed monthly rate covers all your creative needs, with predictable
-        pricing, no contracts, and unlimited revisions. Explore our services to
-        find the perfect solution for your brand’s growth!
-      </p>
+      <div class="text__center">
+        <h2 class="creative-services__header">
+          All-Inclusive <span class="text__primary">Creative Services</span>
+        </h2>
+        <p class="">
+          Our fixed monthly rate covers all your creative needs, with
+          predictable pricing, no contracts, and unlimited revisions. Explore
+          our services to find the perfect solution for your brand’s growth!
+        </p>
+      </div>
 
       <div class="creative-services__left">
         <div class="creative-services__info">
           <div class="creative-services__info-item">
-            <p class="creative-services__info-text">
+            <p class="creative-services__info-text info__text">
+              <img
+                src="./assests/Frame.png"
+                alt=""
+                class="creative-services__image"
+              />
               <strong>What We Provide?</strong>
             </p>
           </div>
+
           <div class="creative-services__info-item">
             <span class="check-icon">✔</span>
             <p class="creative-services__info-text">
@@ -172,6 +187,11 @@
         </div>
       </div>
     </section>
+
+    <div class="creative-services__button-container">
+      <a href="#" class="creative-services__button">Get Started</a>
+    </div>
+
     <!-- ALL-INCLUSIVE CREATIVE SERVICES SECTION ENDS HERE -->
 
     <!-- TURN YOUR RAW VIDEO INTO ENGAGING CLIP SECTION STARTS HERE -->
@@ -364,6 +384,65 @@
     </section>
     <!-- VIDEOS FOR BUSINESS SECTION ENDS HERE -->
 
+    <!-- VIDEOS FOR BUSINESS SECTION STARTS HERE -->
+    <section class="videos-for-business">
+      <h2 class="videos-for-business__header">Videos For personal brands</h2>
+      <div class="videos-for-business__content">
+        <!-- Box 1 -->
+        <div class="video-box">
+          <div class="video-box__image-container">
+            <img
+              src="./assests/vid1.png"
+              alt="Video 1"
+              class="video-box__image"
+            />
+            <span class="play-icon">▶</span>
+          </div>
+          <p class="video-box__title">Corporate Videos</p>
+        </div>
+
+        <!-- Box 2 -->
+        <div class="video-box">
+          <div class="video-box__image-container">
+            <img
+              src="./assests/vid2.png"
+              alt="Video 2"
+              class="video-box__image"
+            />
+            <span class="play-icon">▶</span>
+          </div>
+          <p class="video-box__title">Product Demos</p>
+        </div>
+
+        <!-- Box 3 -->
+        <div class="video-box">
+          <div class="video-box__image-container">
+            <img
+              src="./assests/vid3.png"
+              alt="Video 3"
+              class="video-box__image"
+            />
+            <span class="play-icon">▶</span>
+          </div>
+          <p class="video-box__title">Marketing Campaigns</p>
+        </div>
+
+        <!-- Box 4 -->
+        <div class="video-box">
+          <div class="video-box__image-container">
+            <img
+              src="./assests/vid4.png"
+              alt="Video 4"
+              class="video-box__image"
+            />
+            <span class="play-icon">▶</span>
+          </div>
+          <p class="video-box__title">Event Highlights</p>
+        </div>
+      </div>
+    </section>
+    <!-- VIDEOS FOR BUSINESS SECTION ENDS HERE -->
+
     <!-- NEW SECTION STARTS HERE -->
     <section class="responsive-image-text-section">
       <div class="container">
@@ -385,6 +464,120 @@
       </div>
     </section>
     <!-- NEW SECTION ENDS HERE -->
+
+    <!-- CLIENT STORIES SECTION STARTS HERE -->
+    <section class="client-stories">
+      <!-- Section title -->
+      <h2 class="client-stories__title">
+        Client Stories See What Our Partners Say
+      </h2>
+
+      <div class="client-stories__container">
+        <!-- Client Story 1 -->
+        <div class="client-stories__item">
+          <div class="client-stories__image-container">
+            <img
+              src="/assests/client1.png"
+              alt="Client Story 1"
+              class="client-stories__image"
+            />
+            <span class="client-stories__play-icon">▶</span>
+            <!-- Play button in the center -->
+          </div>
+        </div>
+
+        <!-- Client Story 2 -->
+        <div class="client-stories__item">
+          <div class="client-stories__image-container">
+            <img
+              src="/assests/client2.png"
+              alt="Client Story 2"
+              class="client-stories__image"
+            />
+            <span class="client-stories__play-icon">▶</span>
+            <!-- Play button in the center -->
+          </div>
+        </div>
+
+        <!-- Client Story 3 -->
+        <div class="client-stories__item">
+          <div class="client-stories__image-container">
+            <img
+              src="/assests/client3.png"
+              alt="Client Story 3"
+              class="client-stories__image"
+            />
+            <span class="client-stories__play-icon">▶</span>
+            <!-- Play button in the center -->
+          </div>
+        </div>
+
+        <!-- Client Story 4 -->
+        <div class="client-stories__item">
+          <div class="client-stories__image-container">
+            <img
+              src="/assests/client4.png"
+              alt="Client Story 4"
+              class="client-stories__image"
+            />
+            <span class="client-stories__play-icon">▶</span>
+            <!-- Play button in the center -->
+          </div>
+        </div>
+
+        <!-- Last Client Story with smaller image -->
+        <div class="client-stories__item client-stories__item--last">
+          <div class="client-stories__image-container">
+            <img
+              src="/assests/client5.png"
+              alt="Client Story 5"
+              class="client-stories__image-last"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- CLIENT STORIES SECTION ENDS HERE -->
+
+    <!-- FAQ SECTION STARTS HERE -->
+    <section class="faq">
+      <h2 class="faq__title">Frequently Asked Questions</h2>
+
+      <div class="faq__item">
+        <p class="faq__question">What is your service about?</p>
+        <span class="faq__toggle-icon">+</span>
+        <p class="faq__answer">
+          We create high-quality short-form video content tailored for your
+          business.
+        </p>
+      </div>
+
+      <div class="faq__item">
+        <p class="faq__question">How much does it cost?</p>
+        <span class="faq__toggle-icon">+</span>
+        <p class="faq__answer">
+          Pricing starts at $99 per month, with custom packages available.
+        </p>
+      </div>
+
+      <div class="faq__item">
+        <p class="faq__question">What platforms do you work with?</p>
+        <span class="faq__toggle-icon">+</span>
+        <p class="faq__answer">
+          We support all major social media platforms including Instagram,
+          Facebook, YouTube, and LinkedIn.
+        </p>
+      </div>
+
+      <div class="faq__item">
+        <p class="faq__question">How do I get started?</p>
+        <span class="faq__toggle-icon">+</span>
+        <p class="faq__answer">
+          Simply contact us to book a demo or sign up directly on our website.
+        </p>
+      </div>
+    </section>
+    <!-- FAQ SECTION ENDS HERE -->
 
     <!-- FOOTER SECTION STARTS HERE -->
     <footer class="footer">
