@@ -1,3 +1,4 @@
-Project Overview
-Raaya Social Website is a responsive and user-friendly platform designed to showcase the social media management services offered by Raaya Social. The website highlights various service packages, pricing, and provides an easy way for users to get in touch with the company.
-This website is built using HTML, CSS, and features custom design elements to create a professional online presence. Key sections include service offerings, pricing details, a contact form, and call-to-action buttons to drive user engagement. The layout is fully responsive, ensuring a seamless experience across desktop, tablet, and mobile devices.
+## Project Overview
+
+This website is a responsive and user-friendly portal that showcases the company's social media management services. The website highlights numerous service bundles, price, and allows consumers to easily contact the company.
+This website was created utilizing HTML, CSS, and custom design elements to provide a professional online presence. To increase user engagement, key areas include service options, pricing information, a contact form, and call-to-action buttons. The layout is fully responsive, allowing for a smooth experience on desktop, tablet, and mobile devices.
