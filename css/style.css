@@ -370,6 +370,103 @@ body {
 
 /* NEW SECTION ENDS HERE */
 
+/* Professional Section */
+.professional {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 60px 0;
+}
+
+.professional__left {
+  flex: 1;
+  text-align: left;
+}
+
+.professional__text__main {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.professional__text {
+  font-size: 20px;
+  color: #1d2939;
+  font-weight: 500;
+}
+
+.professional__right {
+  flex: 2;
+}
+
+.professional__logos {
+  display: flex;
+  justify-content: space-between; /* Align logos and names horizontally */
+  gap: 30px; /* Add space between logos */
+}
+
+.professional__logo {
+  display: flex;
+  flex-direction: row; /* Align the logo and name side-by-side */
+  align-items: center;
+  text-align: center;
+}
+
+.professional__logo-img {
+  width: 50px; /* Set a fixed width for the logo */
+  height: auto;
+  margin-right: 10px; /* Space between logo and name */
+}
+
+.professional__company-name {
+  font-size: 14px;
+  color: #1d2939;
+  font-weight: 400;
+}
+
+/* Add a vertical line between the left and right sections */
+.professional::before {
+  content: "";
+  display: block;
+  width: 1px;
+  background-color: #b0b0b0;
+  height: 100%;
+  margin: 0 20px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .professional {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .professional__right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .professional__logos {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .professional__logo {
+    align-items: center;
+  }
+}
+
+@media (max-width: 640px) {
+  .professional__logo-img {
+    width: 40px; /* Reduce logo size on smaller screens */
+  }
+
+  .professional__company-name {
+    font-size: 12px; /* Adjust text size for smaller screens */
+  }
+}
+
 /* ALL-INCLUSIVE CREATIVE SERVICES SECTION STARTS HERE */
 
 .creative-services {
